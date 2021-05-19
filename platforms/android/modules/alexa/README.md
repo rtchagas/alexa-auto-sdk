@@ -140,7 +140,7 @@ AlexaConfiguration deviceConfig = AlexaConfiguration.createDeviceInfoConfig(
 
 ```java
 final String[] LOCALES =  new String[]{"<LOCALE1>", "<LOCALE2>", ...};
-final String[][] LOCALE_COMBINATIONS = new String[][]{{"<LOCALE1>", "<LOCALE2>"}, ...};
+final String[][] LOCALE_COMBINATIONS = new String[][]{{"<LOCALE1>", "<LOCALE2>", ...}};
 AlexaConfiguration deviceSettingsConfig = AlexaConfiguration.createDeviceSettingsConfig(
     "<SQLITE_DATABASE_FILE_PATH>",
     LOCALES,
